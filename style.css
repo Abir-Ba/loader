@@ -1,0 +1,49 @@
+body, html {
+    margin:0;
+    padding:0;
+    height:100%
+}
+
+a {
+    font-size:1.25em;
+}
+
+#content {
+    padding:25px;
+    text-align: center;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#backGround {
+    display: none;
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #ababab;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .70;
+    filter: alpha(opacity=80);
+}
+
+#loaderGif {
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+   
+}
+
+#results {
+    font-size:1.25em;
+}
